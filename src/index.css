@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.App {
+    width: 50%;
+    margin: auto;
+   
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.book-list {
+    list-style-type: none;
+    font-size: 18px;
+}
+.book-list ul {
+    padding: 20px;
+}
+nav {
+    margin: 0;
+    background-color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+    background-color: #111;
+}
